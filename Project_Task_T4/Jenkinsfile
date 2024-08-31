@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_HUB_CREDENTIALS = credentials('Docker_Cred')
         ansible_hostfile = './Project_Task_T4/hosts'
-        ansible_playbook = './Project_Task_T4/ansible.yml'
+        ansible_playbook = './ansible.yml'
         ANSIBLE_HOST_KEY_CHECKING = 'False' // Disable host key checking for Ansible
     }
 
